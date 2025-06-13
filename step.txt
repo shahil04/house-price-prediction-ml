@@ -1,0 +1,24 @@
+1.  folder --> project
+2. open folder in vs code
+3. and also open terminal in vscode 
+4. same path 
+    1. if you want to create virtual env (optional  but useful)
+       ---> CMD pip install virtualenv
+
+       -->create venv 
+           CMD-->  python -m venv demoenv
+           CMD -->  demoenv\Scripts\activate  (for windows)
+
+        CMD --> pip install streamlit
+            --> pip install scikit-learn, pandas,numpy , matplotlib, joblib
+            
+4. CREATE demo.py  ->> and  write the code 
+5.  streamlit run app.py (run the app)
+
+
+=======================
+Project 
+--> go to project folder
+--> CMD --> Activate the virtual env
+---> pip install scikit-learn, pandas,numpy , matplotlib, joblib, streamlit
+--> pip install -r requirements.txt (if you have requirements.txt)
