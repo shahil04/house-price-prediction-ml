@@ -21,4 +21,25 @@ Project
 --> go to project folder
 --> CMD --> Activate the virtual env
 ---> pip install scikit-learn, pandas,numpy , matplotlib, joblib, streamlit
---> pip install -r requirements.txt (if you have requirements.txt)
+--> streamlit run app.py (run the app)
+=======================
+if it run without error 
+then create --> requirements.txt
+    --> CMD --> pip freeze >> requriements.txt
+
+    -->not needed for 1st time --> pip install -r requirements.txt (if you have requirements.txt) not run the app again
+
+
+====================
+now  use github for online the project
+--> github account (signin)
+--> create new repository
+
+echo "# house-price-prediction-ml" >> README.md 
+git init
+git add README.md   --> for all use  *  
+
+git commit -m "first commit"
+git branch -M main (optional ) --> default branch name is master
+git remote add origin https://github.com/shahil04/house-price-prediction-ml.git
+git push -u origin main
